@@ -17,8 +17,8 @@ res.json({
 })
 })
 
-const PORT = 5000;
+// const PORT = 4000;
 
-app.listen(5000, () => {
+app.listen(4000, () => {
   console.log(`Server is running at ${PORT}`);
 });
