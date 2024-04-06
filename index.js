@@ -12,12 +12,13 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
 res.json({
-    message:"get request working"
+    message:"get request working",
+    users:["ram","syam","shiva","durga","radha","hanuman ji"]
 })
 })
 
-const PORT = process.env.PORT;
+const PORT = 5000;
 
-app.listen(PORT, () => {
+app.listen(5000, () => {
   console.log(`Server is running at ${PORT}`);
 });
